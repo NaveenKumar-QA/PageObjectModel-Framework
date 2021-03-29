@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56154" started-at="2021-03-28T12:07:33 IST" finished-at="2021-03-28T12:08:29 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="56154" started-at="2021-03-28T12:07:33 IST" finished-at="2021-03-28T12:08:29 IST">
+      <class name="testcases.EditLead">
+        <test-method status="PASS" signature="FileName()[pri:0, instance:testcases.EditLead@16f7c8c1]" name="FileName" is-config="true" duration-ms="15" started-at="2021-03-28T12:07:33 IST" finished-at="2021-03-28T12:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileName -->
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:testcases.EditLead@16f7c8c1]" name="PreCondition" is-config="true" duration-ms="5935" started-at="2021-03-28T12:07:34 IST" finished-at="2021-03-28T12:07:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="EditLeadTC(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.EditLead@16f7c8c1]" name="EditLeadTC" duration-ms="19464" started-at="2021-03-28T12:07:40 IST" data-provider="Excel_ReadTC" finished-at="2021-03-28T12:07:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[naveen]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditLeadTC -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:testcases.EditLead@16f7c8c1]" name="PostCondition" is-config="true" duration-ms="175" started-at="2021-03-28T12:07:59 IST" finished-at="2021-03-28T12:07:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+      </class> <!-- testcases.EditLead -->
+      <class name="testcases.DuplicateLead">
+        <test-method status="PASS" signature="FileName()[pri:0, instance:testcases.DuplicateLead@2f0a87b3]" name="FileName" is-config="true" duration-ms="15" started-at="2021-03-28T12:07:33 IST" finished-at="2021-03-28T12:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileName -->
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:testcases.DuplicateLead@2f0a87b3]" name="PreCondition" is-config="true" duration-ms="5936" started-at="2021-03-28T12:07:34 IST" finished-at="2021-03-28T12:07:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="Duplicate_LeadExecution(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.DuplicateLead@2f0a87b3]" name="Duplicate_LeadExecution" duration-ms="20879" started-at="2021-03-28T12:07:40 IST" data-provider="Excel_ReadTC" finished-at="2021-03-28T12:08:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[markus@seltest.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Duplicate_LeadExecution -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:testcases.DuplicateLead@2f0a87b3]" name="PostCondition" is-config="true" duration-ms="146" started-at="2021-03-28T12:08:01 IST" finished-at="2021-03-28T12:08:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+      </class> <!-- testcases.DuplicateLead -->
+      <class name="testcases.DeleteLead">
+        <test-method status="PASS" signature="FileName()[pri:0, instance:testcases.DeleteLead@319b92f3]" name="FileName" is-config="true" duration-ms="15" started-at="2021-03-28T12:07:33 IST" finished-at="2021-03-28T12:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FileName -->
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:testcases.DeleteLead@319b92f3]" name="PreCondition" is-config="true" duration-ms="6124" started-at="2021-03-28T12:07:34 IST" finished-at="2021-03-28T12:07:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="DeleteLead_Execution(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.DeleteLead@319b92f3]" name="DeleteLead_Execution" duration-ms="15488" started-at="2021-03-28T12:07:40 IST" data-provider="Excel_ReadTC" finished-at="2021-03-28T12:07:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteLead_Execution -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:testcases.DeleteLead@319b92f3]" name="PostCondition" is-config="true" duration-ms="179" started-at="2021-03-28T12:07:55 IST" finished-at="2021-03-28T12:07:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+      </class> <!-- testcases.DeleteLead -->
+      <class name="testcases.CreateLead">
+        <test-method status="PASS" signature="filesheetExcel_Name()[pri:0, instance:testcases.CreateLead@24a35978]" name="filesheetExcel_Name" is-config="true" duration-ms="15" started-at="2021-03-28T12:07:33 IST" finished-at="2021-03-28T12:07:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filesheetExcel_Name -->
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:testcases.CreateLead@24a35978]" name="PreCondition" is-config="true" duration-ms="6070" started-at="2021-03-28T12:07:34 IST" finished-at="2021-03-28T12:07:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="Create_Lead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CreateLead@24a35978]" name="Create_Lead" duration-ms="12638" started-at="2021-03-28T12:07:40 IST" data-provider="Excel_ReadTC" finished-at="2021-03-28T12:07:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[naveen1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0123456789]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[markus@seltest.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Lead -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:testcases.CreateLead@24a35978]" name="PostCondition" is-config="true" duration-ms="135" started-at="2021-03-28T12:07:53 IST" finished-at="2021-03-28T12:07:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:testcases.CreateLead@24a35978]" name="PreCondition" is-config="true" duration-ms="2363" started-at="2021-03-28T12:07:53 IST" finished-at="2021-03-28T12:07:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="Create_Lead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CreateLead@24a35978]" name="Create_Lead" duration-ms="7902" started-at="2021-03-28T12:07:55 IST" data-provider="Excel_ReadTC" finished-at="2021-03-28T12:08:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[naveen2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0123456789]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[markus@seltest.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Lead -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:testcases.CreateLead@24a35978]" name="PostCondition" is-config="true" duration-ms="100" started-at="2021-03-28T12:08:03 IST" finished-at="2021-03-28T12:08:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:testcases.CreateLead@24a35978]" name="PreCondition" is-config="true" duration-ms="1698" started-at="2021-03-28T12:08:03 IST" finished-at="2021-03-28T12:08:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="Create_Lead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CreateLead@24a35978]" name="Create_Lead" duration-ms="4799" started-at="2021-03-28T12:08:05 IST" data-provider="Excel_ReadTC" finished-at="2021-03-28T12:08:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[IBM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[naveen3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0123456789]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[markus@seltest.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Lead -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:testcases.CreateLead@24a35978]" name="PostCondition" is-config="true" duration-ms="135" started-at="2021-03-28T12:08:10 IST" finished-at="2021-03-28T12:08:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:testcases.CreateLead@24a35978]" name="PreCondition" is-config="true" duration-ms="1718" started-at="2021-03-28T12:08:10 IST" finished-at="2021-03-28T12:08:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="Create_Lead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CreateLead@24a35978]" name="Create_Lead" duration-ms="5633" started-at="2021-03-28T12:08:11 IST" data-provider="Excel_ReadTC" finished-at="2021-03-28T12:08:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[naveen4]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0123456789]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[markus@seltest.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Lead -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:testcases.CreateLead@24a35978]" name="PostCondition" is-config="true" duration-ms="4095" started-at="2021-03-28T12:08:17 IST" finished-at="2021-03-28T12:08:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+        <test-method status="PASS" signature="PreCondition()[pri:0, instance:testcases.CreateLead@24a35978]" name="PreCondition" is-config="true" duration-ms="1812" started-at="2021-03-28T12:08:21 IST" finished-at="2021-03-28T12:08:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreCondition -->
+        <test-method status="PASS" signature="Create_Lead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CreateLead@24a35978]" name="Create_Lead" duration-ms="6232" started-at="2021-03-28T12:08:23 IST" data-provider="Excel_ReadTC" finished-at="2021-03-28T12:08:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[democsr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AWS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[naveen5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0123456789]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[markus@seltest.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Lead -->
+        <test-method status="PASS" signature="PostCondition()[pri:0, instance:testcases.CreateLead@24a35978]" name="PostCondition" is-config="true" duration-ms="128" started-at="2021-03-28T12:08:29 IST" finished-at="2021-03-28T12:08:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostCondition -->
+      </class> <!-- testcases.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
